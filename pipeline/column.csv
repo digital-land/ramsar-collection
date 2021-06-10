@@ -1,1 +1,5 @@
 pipeline,resource,pattern,value
+ramsar,,WKT,geometry
+ramsar,,NAME,name
+ramsar,,OBJECTID,geography
+ramsar,,GISDATE,start-date
