@@ -15,11 +15,7 @@ dataset:: $(RAMSAR_DATASET)
 
 RAMSAR_SITE_DATASET=$(DATASET_DIR)ramsar-site.csv
 RAMSAR_SITE_TRANSFORMED_FILES=\
-    $(TRANSFORMED_DIR)ramsar-site/68005b43815eefe169e14c4417d8e1788a1a6107713c7f441dbf2352d4abb2a7.csv\
     $(TRANSFORMED_DIR)ramsar-site/afaed7e59711af3c8735cba25e146742b1975fea53a0d15dc65269cda6b9357e.csv
-
-$(TRANSFORMED_DIR)ramsar-site/68005b43815eefe169e14c4417d8e1788a1a6107713c7f441dbf2352d4abb2a7.csv: collection/resource/68005b43815eefe169e14c4417d8e1788a1a6107713c7f441dbf2352d4abb2a7
-	$(run-pipeline)
 
 $(TRANSFORMED_DIR)ramsar-site/afaed7e59711af3c8735cba25e146742b1975fea53a0d15dc65269cda6b9357e.csv: collection/resource/afaed7e59711af3c8735cba25e146742b1975fea53a0d15dc65269cda6b9357e
 	$(run-pipeline)
