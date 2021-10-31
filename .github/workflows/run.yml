@@ -1,14 +1,8 @@
 name: Run pipeline
 on:
-  push:
-    paths-ignore:
-    - collection/resource/**
-    - collection/log/**
-    - index/**
-    - var/**
-    branches: main
   schedule:
   - cron: 0 0 * * *
+  workflow_dispatch:
 env:
   DLB_BOT_EMAIL: ${{ secrets.DLB_BOT_EMAIL }}
   DLB_BOT_TOKEN: ${{ secrets.DLB_BOT_TOKEN }}
