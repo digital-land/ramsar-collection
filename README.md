@@ -1,10 +1,21 @@
 # Ramsar collection
 
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/XXX/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/ramsar-collection/blob/master/LICENSE)
+[![Run pipeline](https://github.com/digital-land/ramsar-collection/actions/workflows/run.yml/badge.svg)](https://github.com/digital-land/ramsar-collection/actions/workflows/run.yml)
 
-A collection of XXX collected from YYY.
+A collection of Ramsar sites and shapes collected from Natural England.
 
-The national dataset is in a format consistent with other Digital Land datasets as defined by the [ZZZ schema](https://digital-land.github.io/specification/schema/ZZZ/).
+The national dataset is in a format consistent with other Digital Land datasets as defined by the
+[ramsar](https://digital-land.github.io/specification/schema/ramsar/) and
+[ramsar-site](https://digital-land.github.io/specification/schema/ramsar-site/) schemas.
+
+Identifiers in the collection can be used in a number of different places, including:
+
+* https://rsis.ramsar.org/ris/220
+* https://jncc.gov.uk/jncc-assets/RIS/UK11056.pdf
+* https://sac.jncc.gov.uk/site/UK0012890
+* https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK11013&SiteName=&countyCode=&responsiblePerson=&unitId=&SeaArea=&IFCAArea=
+* https://magic.defra.gov.uk/MagicMap.aspx?startTopic=Designations&activelayer=sssiIndex&query=HYPERLINK%3D%271001904%27
 
 # Collection
 
@@ -25,7 +36,7 @@ We recommend working in [virtual environment](http://docs.python-guide.org/en/la
 
 # Nightly collection
 
-The collection is [updated nightly](https://github.com/digital-land/ZZZ/actions) by the [GitHub Action](.github/workflows/run.yml).
+The collection is [updated nightly](https://github.com/digital-land/ramsar-collection/actions) by the [GitHub Action](.github/workflows/run.yml).
 
 # Building the national dataset
 
